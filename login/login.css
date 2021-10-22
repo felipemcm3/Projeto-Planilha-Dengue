@@ -11,11 +11,12 @@ body{
     font: normal 20px Arial, Helvetica,sans-serif;
 }
 
-main > section{
-    float: right;
+main picture{
+    margin: auto;
 }
 
 #entrando{
+    float: right;
     text-align: center;
     background-color: var(--cor1);
     width: 300px;
@@ -24,6 +25,7 @@ main > section{
     margin-top: 70px;
     margin-right: 30px;
     padding: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.644);
 }
 #imglogin{
     
@@ -35,11 +37,13 @@ main > section{
 
 #usuario{
     height: 30px;
+    font-size: 20px;
 }
 
 #senha{
     height: 30px;
     margin-left: 11px;
+    font-size: 20px;
 }
 
 #alerta{
@@ -47,7 +51,6 @@ main > section{
 }
 
 #entrar{
-    margin-top: 40px;
     width: 110px;
     height: 50px;
     border-radius: 20px;
@@ -58,3 +61,10 @@ main > section{
     color: white;
     transition-duration: 1s;
 }
+
+#imgG{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+
