@@ -7,5 +7,6 @@ function entrou(){
         res.innerHTML = 'Informe os dados'
     }else{
         window.location.href = "../inicio/inicio.html"
+        export default usuario;
     }
 }
