@@ -1,0 +1,23 @@
+{
+  "name": "Projeto-Planilha-Dengue",
+  "version": "1.0.0",
+  "description": "**Aplicativo web para substituir as planilhas manuais dos agentes de saúde**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipemcm3/Projeto-Planilha-Dengue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipemcm3/Projeto-Planilha-Dengue/issues"
+  },
+  "homepage": "https://github.com/felipemcm3/Projeto-Planilha-Dengue#readme",
+  "dependencies": {
+    "firebase": "^9.1.3"
+  }
+}
