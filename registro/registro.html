@@ -18,20 +18,27 @@
                 </div>
                 <hr>
                 <div id='local'>
-                    <span><strong>Municipio: </strong>Sete Lagoas</span>
-                    <span><strong>Bairro: </strong>Carmo</span>
-                    <span><strong>RG:</strong>158</span>
-                    <span><strong>Semana Epidemiologica: </strong>25º</span>
-                    <span><strong>Quarteirão: </strong>06</span>
+                    <span><strong>Tipo:</strong></span>
+                    <select name="tipo" id="idtipo">
+                        <option value="Casa">Casa</option>
+                        <option value="Apartamento">Apartamento</option>
+                        <option value="Comercio">Comercio</option>
+                        <option value="Lote">Lote</option>
+                        <option value="Outros">Outros</option>
+                    </select>
+                    <br>
+                    <span><strong>Quantidade Moradores:</strong></span><input type="number" name="moradores" id="idmoradores" class="numeros">
+                    <span><strong>Quantidade Animais:</strong></span><input type="number" name="animais" id="idanimais" class="numeros">
+                    <br>
+                    <span><strong>Locais Tratados:</strong></span><input type="number" name="tratados" id="idtratados" class="numeros">
+                    <span><strong>Vermicida Usado:</strong></span><input type="number" name="vermicida" id="idvermicida" class="numeros">
+                    <br>
+                    <span><strong>Depositos Eliminados:</strong></span><input type="number" name="eliminados" id="ideliminados" class="numeros">
                 </div>
                 <hr>
         </header>
         
-        <input type="button" value="Finalizar" id='adicionar'>
-        <div>
-            <select name="txtquarteirao" id="quarteirao" size="10">
-            </select>
-        </div>
+        <a href="../casa/casa.html"><input type="button" value="Finalizar" id='adicionar'></a>
     </main>
     <script src="inicio.js"></script>
 </body>
