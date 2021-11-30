@@ -40,14 +40,14 @@ hr{
     margin: 10px;
 }
 
-#adicionar{
+.adicionar{
     width: 200px;
     height: 50px;
     border-radius: 20px;
     font-size: 20px;
     margin-top: 10px;
 }
-#adicionar:hover{
+.adicionar:hover{
     background-color: var(--cor4);
     color: white;
     transition-duration: 1s;
@@ -57,4 +57,10 @@ hr{
     margin-left: 40px;
     margin-top: 30px;
     width: 150px;
+}
+#numquar{
+    font-size: 30px;
+    width: 80px;
+    margin-left: 10px;
+    
 }

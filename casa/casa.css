@@ -58,3 +58,15 @@ hr{
     margin-top: 30px;
     width: 150px;
 }
+#finalizar{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#finalizar:hover{
+    background-color: var(--cor4);
+    color: white;
+    transition-duration: 1s;
+}
